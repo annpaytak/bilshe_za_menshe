@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/bilshe_za_menshe/static/css/main.4cd47800.chunk.css",
-    "main.js": "/bilshe_za_menshe/static/js/main.fbf94b9c.chunk.js",
-    "main.js.map": "/bilshe_za_menshe/static/js/main.fbf94b9c.chunk.js.map",
+    "main.js": "/bilshe_za_menshe/static/js/main.bc19cb71.chunk.js",
+    "main.js.map": "/bilshe_za_menshe/static/js/main.bc19cb71.chunk.js.map",
     "runtime-main.js": "/bilshe_za_menshe/static/js/runtime-main.5313fead.js",
     "runtime-main.js.map": "/bilshe_za_menshe/static/js/runtime-main.5313fead.js.map",
-    "static/js/2.73fc349f.chunk.js": "/bilshe_za_menshe/static/js/2.73fc349f.chunk.js",
-    "static/js/2.73fc349f.chunk.js.map": "/bilshe_za_menshe/static/js/2.73fc349f.chunk.js.map",
+    "static/js/2.f7348b11.chunk.js": "/bilshe_za_menshe/static/js/2.f7348b11.chunk.js",
+    "static/js/2.f7348b11.chunk.js.map": "/bilshe_za_menshe/static/js/2.f7348b11.chunk.js.map",
     "static/js/3.1bccf8e1.chunk.js": "/bilshe_za_menshe/static/js/3.1bccf8e1.chunk.js",
     "static/js/3.1bccf8e1.chunk.js.map": "/bilshe_za_menshe/static/js/3.1bccf8e1.chunk.js.map",
     "index.html": "/bilshe_za_menshe/index.html",
     "static/css/main.4cd47800.chunk.css.map": "/bilshe_za_menshe/static/css/main.4cd47800.chunk.css.map",
-    "static/js/2.73fc349f.chunk.js.LICENSE.txt": "/bilshe_za_menshe/static/js/2.73fc349f.chunk.js.LICENSE.txt",
+    "static/js/2.f7348b11.chunk.js.LICENSE.txt": "/bilshe_za_menshe/static/js/2.f7348b11.chunk.js.LICENSE.txt",
     "static/media/0101.e40b39e9.jpg": "/bilshe_za_menshe/static/media/0101.e40b39e9.jpg",
     "static/media/0102.fc330636.png": "/bilshe_za_menshe/static/media/0102.fc330636.png",
     "static/media/0103.761db562.jpg": "/bilshe_za_menshe/static/media/0103.761db562.jpg",
@@ -59,8 +59,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.5313fead.js",
-    "static/js/2.73fc349f.chunk.js",
+    "static/js/2.f7348b11.chunk.js",
     "static/css/main.4cd47800.chunk.css",
-    "static/js/main.fbf94b9c.chunk.js"
+    "static/js/main.bc19cb71.chunk.js"
   ]
 }
