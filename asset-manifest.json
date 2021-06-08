@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/bilshe_za_menshe/static/css/main.22011d69.chunk.css",
-    "main.js": "/bilshe_za_menshe/static/js/main.7e7118a9.chunk.js",
-    "main.js.map": "/bilshe_za_menshe/static/js/main.7e7118a9.chunk.js.map",
+    "main.js": "/bilshe_za_menshe/static/js/main.c16bba41.chunk.js",
+    "main.js.map": "/bilshe_za_menshe/static/js/main.c16bba41.chunk.js.map",
     "runtime-main.js": "/bilshe_za_menshe/static/js/runtime-main.3cf83e0d.js",
     "runtime-main.js.map": "/bilshe_za_menshe/static/js/runtime-main.3cf83e0d.js.map",
     "static/js/2.01f44d71.chunk.js": "/bilshe_za_menshe/static/js/2.01f44d71.chunk.js",
@@ -73,6 +73,6 @@
     "static/js/runtime-main.3cf83e0d.js",
     "static/js/2.01f44d71.chunk.js",
     "static/css/main.22011d69.chunk.css",
-    "static/js/main.7e7118a9.chunk.js"
+    "static/js/main.c16bba41.chunk.js"
   ]
 }
