@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/bilshe_za_menshe/static/css/main.22011d69.chunk.css",
+    "main.css": "/bilshe_za_menshe/static/css/main.dc44f7cb.chunk.css",
     "main.js": "/bilshe_za_menshe/static/js/main.d19bd188.chunk.js",
     "main.js.map": "/bilshe_za_menshe/static/js/main.d19bd188.chunk.js.map",
     "runtime-main.js": "/bilshe_za_menshe/static/js/runtime-main.3cf83e0d.js",
@@ -10,7 +10,7 @@
     "static/js/3.fac6af10.chunk.js": "/bilshe_za_menshe/static/js/3.fac6af10.chunk.js",
     "static/js/3.fac6af10.chunk.js.map": "/bilshe_za_menshe/static/js/3.fac6af10.chunk.js.map",
     "index.html": "/bilshe_za_menshe/index.html",
-    "static/css/main.22011d69.chunk.css.map": "/bilshe_za_menshe/static/css/main.22011d69.chunk.css.map",
+    "static/css/main.dc44f7cb.chunk.css.map": "/bilshe_za_menshe/static/css/main.dc44f7cb.chunk.css.map",
     "static/js/2.01f44d71.chunk.js.LICENSE.txt": "/bilshe_za_menshe/static/js/2.01f44d71.chunk.js.LICENSE.txt",
     "static/media/0101.e40b39e9.jpg": "/bilshe_za_menshe/static/media/0101.e40b39e9.jpg",
     "static/media/0102.fc330636.png": "/bilshe_za_menshe/static/media/0102.fc330636.png",
@@ -72,7 +72,7 @@
   "entrypoints": [
     "static/js/runtime-main.3cf83e0d.js",
     "static/js/2.01f44d71.chunk.js",
-    "static/css/main.22011d69.chunk.css",
+    "static/css/main.dc44f7cb.chunk.css",
     "static/js/main.d19bd188.chunk.js"
   ]
 }
