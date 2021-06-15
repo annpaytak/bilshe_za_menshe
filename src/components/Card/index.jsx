@@ -31,12 +31,12 @@ const Button = styled.button`
     flex-direction: column;
     justify-content: space-between;
     align-self: flex-end;
-    margin: 0.25em auto;
+    margin: 1em auto; //0.25em auto;
     padding: 0;
     border: 2px solid ${({category, selected}) => selected ? handleColorType(category) : COLORS.WHITE};
     background-color: ${({category, selected}) => selected ? handleColorType(category) : COLORS.DEFAULT};
     .category-card_image {
-        height: 130px;
+        height: 180px; // 130px
         border-radius: 50%;
         align-self: flex-end;
         margin: 1.8em 0.8em 0 0;
@@ -56,7 +56,7 @@ const Button = styled.button`
 const Card = ({selected, category, title, onClickHandler}) => {
     return (
       <Button
-        className='ds'
+        className='ds cardd'
         category={category}
         selected={selected}
         onClick={onClickHandler}>

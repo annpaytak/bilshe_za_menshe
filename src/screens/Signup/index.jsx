@@ -1,22 +1,24 @@
-import React, {useState, useEffect, useRef} from 'react';
-import {Link, Redirect} from 'react-router-dom';
+import React, {useState, useRef, useEffect} from 'react';
+import {Redirect} from 'react-router-dom';
 import Slider from 'react-slick';
+import anime from 'animejs';
 
 import Button from '../../components/Button';
 import TextField from '../../components/TextField';
 import Card from '../../components/Card';
+import Line from '../../assets/images/icon_line.svg';
 
-import cafeRestaurantsImg from '../../assets/images/01_cafe_restaurants/0101.jpg';
-import supermarketsHypermarketsImg from '../../assets/images/02_super_hipermarkets/0201.jpg';
-import coffeeHouseBakeryImg from '../../assets/images/03_bakery/0301.jpg';
-import craftProductsStoresImg from '../../assets/images/04_craft/0401.jpg';
+// import cafeRestaurantsImg from '../../assets/images/01_cafe_restaurants/0101.jpg';
+// import supermarketsHypermarketsImg from '../../assets/images/02_super_hipermarkets/0201.jpg';
+// import coffeeHouseBakeryImg from '../../assets/images/03_bakery/0301.jpg';
+// import craftProductsStoresImg from '../../assets/images/04_craft/0401.jpg';
 
 import constants from '../../constants';
-const {CATEGORY_CONSTANTS, CATEGORY_TITLES, ALL_CATEGORIES} = constants;
+const {CATEGORY_TITLES, ALL_CATEGORIES, COLORS} = constants;
 
 const Signup = () => {
-    const [name, setName] = useState('Анна');
-    const [location, setLocation] = useState('Львів');
+    const [name, setName] = useState(''); //Анна
+    const [location, setLocation] = useState(''); //Львів
     const [categories, setCategories] = useState([]);
 
     const [start, setStart] = useState(false);
@@ -33,8 +35,32 @@ const Signup = () => {
     //     }
     // };
 
+    // useEffect(() => {
+    // }, []);
+
     const afterChange = current => {
-        if(current === 2) setPagesSwipeEnabled(false);
+        if (current === 2) {
+            setPagesSwipeEnabled(false);
+            anime({
+                targets: '.line',
+                translateX: 20,
+                delay: 800,
+                direction: 'alternate',
+                easing: 'easeInOutSine'
+            });
+            // anime({
+            //     targets: '.cardd',
+            //     // translateY: 10,
+            //     // width: '68%',
+            //     // height: '52%',
+            //     // translateX: 250,
+            //     scale: 0.95,
+            //     duration: 200,
+            //     backgroundColor: 'rgba(211, 8, 28, .3)',
+            //     direction: 'alternate',
+            //     easing: 'easeInOutSine'
+            // });
+        }
     };
 
     const pagesSliderSettings = {
@@ -62,7 +88,7 @@ const Signup = () => {
             pagesEl.current.slickNext();
         };
         return (
-            <div className='signup-slider-page signup-slider-page--name'>
+            <div className='fbg signup-slider-page signup-slider-page--name'>
                 <p className='signup-slider-page_label'>Як до тебе звертатись?</p>
                 <TextField
                     type='text'
@@ -71,7 +97,7 @@ const Signup = () => {
                     onChangeHandler={e => setName(e.target.value)}/>
                 {name &&
                     <Button
-                        className='signup-slider-page_button'
+                        className='signup-slider-page_button rere'
                         type='no-bg'
                         onClickHandler={saveName}>
                         продовжити
@@ -87,7 +113,7 @@ const Signup = () => {
         };
 
         return (
-            <div className='signup-slider-page signup-slider-page--location'>
+            <div className='fbg signup-slider-page signup-slider-page--location'>
                 <p className='signup-slider-page_label'>Де шукати знижки для тебе?</p>
                 <TextField
                     type='text'
@@ -96,7 +122,7 @@ const Signup = () => {
                     onChangeHandler={({target}) => setLocation(target.value)}/>
                 {location &&
                     <Button
-                        className='signup-slider-page_button'
+                        className='signup-slider-page_button rere'
                         type='no-bg'
                         onClickHandler={saveLocation}>
                         продовжити
@@ -126,8 +152,11 @@ const Signup = () => {
         };
 
         return (
-            <div className='signup-slider-page signup-slider-page--categories'>
-                <p className='signup-slider-page_label'>Ми пропонуємо знижки на такі категорії. Обирай</p>
+            <div className='fbg signup-slider-page signup-slider-page--categories'>
+                <p className='signup-slider-page_label'>
+                    Ми пропонуємо знижки на такі категорії. Обирай
+                    <img className='line' src={Line} alt='' />
+                </p>
                 <Slider {...categoriesSliderSettings}>
                     {ALL_CATEGORIES.map(categoryConstant => (
                         <Card

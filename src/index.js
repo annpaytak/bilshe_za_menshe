@@ -1,11 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
-  Route,
-  Link,
-  Redirect
+  Route
 } from 'react-router-dom';
 
 import LaunchScreen from './screens/LaunchScreen';

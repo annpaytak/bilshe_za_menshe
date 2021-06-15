@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 import constants from '../../constants';
-const {CATEGORY_TITLES, CATEGORY_CONSTANTS} = constants;
+// const {CATEGORY_TITLES, CATEGORY_CONSTANTS} = constants;
 
 const Input = styled.input`
   width: calc(100% - 2.75em);

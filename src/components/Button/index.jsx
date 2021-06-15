@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 import styled from 'styled-components';
 
 import constants from '../../constants';
-const {CATEGORY_TITLES, CATEGORY_CONSTANTS, COLORS} = constants;
+const {CATEGORY_TITLES, COLORS} = constants;
 
 const handleColorType = category => {
   switch (category) {
@@ -28,11 +28,21 @@ const Button = styled.button`
   text-transform: ${({type}) => type === 'no-bg' || type === 'rounded'? 'uppercase' : 'capitalize'};
   margin: 0.25em;
   color: ${({type}) => type === 'rounded'? COLORS.WHITE : COLORS.BLACK};
-  min-width: ${({type}) => type === 'rounded'? '220px' : 'auto'};
-  padding: 0.75em 1em;
-  border-radius:  ${({type}) => type === 'rounded'? '50px' : 0};
+  /* min-width: ${({type}) => type === 'rounded'? '220px' : 'auto'}; */
+  /* max-width: 220px; */
+  padding: 0.75em 1.5em;
+  max-height: 50px;
+  border-radius:  ${({type}) => type === 'rounded'? '5px' : 0};
   border: 1.5px solid ${({category, type}) => type === 'no-bg'? 'transparent' : handleColorType(category)};
-  &:disabled{
+  a{
+    display: flex;
+    align-items: center;
+    /* .link-icon {
+      height: 29px;
+      margin: 10px;
+    } */
+  }
+&:disabled{
     opacity: .5;
   }
 `;

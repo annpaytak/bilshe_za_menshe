@@ -1,13 +1,14 @@
 import React, {useState, useEffect} from 'react';
-import {Tabs, AppBar, Tab, Box, Typography, Select, MenuItem, Card} from '@material-ui/core';
 import {Link} from 'react-router-dom';
 
 import constants from '../../constants';
 
+import Favs from '../../assets/images/icon_heart.svg' //lo.jpg
+import Logo from '../../assets/images/logo_elem_dark.svg' //lo.jpg
 import Button from '../../components/Button';
 import ListItem from '../../components/ListItem';
 
-const {CATEGORY_TITLES, CATEGORY_CONSTANTS, ALL_CATEGORIES, ALL_ITEMS} = constants;
+const {CATEGORY_TITLES, CATEGORY_CONSTANTS, ALL_ITEMS} = constants;
 const {CAFE_RESTAURANTS, SUPERMARKETS_HYPERMARKETS, COFFEE_HOUSE_BAKERY, CRAFT_PRODUCTS_STORES} = CATEGORY_CONSTANTS;
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
        const categories = localStorage.getItem('categories').split(',');
         setCategories(categories);
         getItems();
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     const getItems = () => {
@@ -27,6 +29,7 @@ export default function Home() {
 
     useEffect(() => {
         getItems();
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [categories])
 
     const handleCategoriesChange = (selectedCategory) => {
@@ -42,15 +45,27 @@ export default function Home() {
         localStorage.setItem('categories', categories);
     }, [categories])
 
-    const ff = items.sort(function(a,b){
-    return new Date(b.date) - new Date(a.date);
+    const ff = items.sort(function(a,b) {
+        // return new Date(b.date) - new Date(a.date);
+        return a.uiId - b.uiId;
     });
 
     console.log(ff);
+    console.log(items.map(e => e.uiId));
 
     return (
         <div>
-            <h1>Всі</h1>
+            <div className='header'>
+                <h1>
+                    <span>Більше</span>
+                    <span>
+                        <img src={Logo} alt="" />
+                        менше
+                    </span>
+                </h1>
+                <img className='favs' src={Favs} alt="" />
+            </div>
+            {/* <h1>Всі</h1> fafafa*/}
             <div className='flat-divs'>
                 <div className='flat-div'>
                     <Button
@@ -102,8 +117,8 @@ export default function Home() {
                     </Button>
                 ))} */}
             </div>
-            <div>
-                {items.map(item => <Item key={item.id} {...item} />)}
+            <div className='main-co'>
+                {items.map(item => <Item key={item.uiId} {...item} />)}
                 {/* <Card>
                     сендвіч з куркою та томатами
                     вулиця Лесі Українки, 27 Львів
@@ -129,7 +144,8 @@ export default function Home() {
     );
 }
 const Item = (props) => {
-    const {id, category, title, date, description, place, address, city} = props;
+    // , category, title, date, description, place, address, city
+    const {id} = props;
     return (
         <Link to={`/discount/${id}`}>
             <ListItem
