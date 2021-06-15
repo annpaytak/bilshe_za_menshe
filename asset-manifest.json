@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/bilshe_za_menshe/static/css/main.5d569863.chunk.css",
-    "main.js": "/bilshe_za_menshe/static/js/main.75563505.chunk.js",
-    "main.js.map": "/bilshe_za_menshe/static/js/main.75563505.chunk.js.map",
+    "main.css": "/bilshe_za_menshe/static/css/main.ae03bda4.chunk.css",
+    "main.js": "/bilshe_za_menshe/static/js/main.997ceb8a.chunk.js",
+    "main.js.map": "/bilshe_za_menshe/static/js/main.997ceb8a.chunk.js.map",
     "runtime-main.js": "/bilshe_za_menshe/static/js/runtime-main.3cf83e0d.js",
     "runtime-main.js.map": "/bilshe_za_menshe/static/js/runtime-main.3cf83e0d.js.map",
-    "static/js/2.01f44d71.chunk.js": "/bilshe_za_menshe/static/js/2.01f44d71.chunk.js",
-    "static/js/2.01f44d71.chunk.js.map": "/bilshe_za_menshe/static/js/2.01f44d71.chunk.js.map",
+    "static/js/2.8515d2b7.chunk.js": "/bilshe_za_menshe/static/js/2.8515d2b7.chunk.js",
+    "static/js/2.8515d2b7.chunk.js.map": "/bilshe_za_menshe/static/js/2.8515d2b7.chunk.js.map",
     "static/js/3.fac6af10.chunk.js": "/bilshe_za_menshe/static/js/3.fac6af10.chunk.js",
     "static/js/3.fac6af10.chunk.js.map": "/bilshe_za_menshe/static/js/3.fac6af10.chunk.js.map",
     "index.html": "/bilshe_za_menshe/index.html",
-    "static/css/main.5d569863.chunk.css.map": "/bilshe_za_menshe/static/css/main.5d569863.chunk.css.map",
-    "static/js/2.01f44d71.chunk.js.LICENSE.txt": "/bilshe_za_menshe/static/js/2.01f44d71.chunk.js.LICENSE.txt",
+    "static/css/main.ae03bda4.chunk.css.map": "/bilshe_za_menshe/static/css/main.ae03bda4.chunk.css.map",
+    "static/js/2.8515d2b7.chunk.js.LICENSE.txt": "/bilshe_za_menshe/static/js/2.8515d2b7.chunk.js.LICENSE.txt",
     "static/media/0101.e40b39e9.jpg": "/bilshe_za_menshe/static/media/0101.e40b39e9.jpg",
     "static/media/0102.fc330636.png": "/bilshe_za_menshe/static/media/0102.fc330636.png",
     "static/media/0103.761db562.jpg": "/bilshe_za_menshe/static/media/0103.761db562.jpg",
@@ -58,22 +58,26 @@
     "static/media/icon_arrow.73dbf09d.svg": "/bilshe_za_menshe/static/media/icon_arrow.73dbf09d.svg",
     "static/media/icon_heart.0f9330d7.svg": "/bilshe_za_menshe/static/media/icon_heart.0f9330d7.svg",
     "static/media/icon_line.15fb2b5f.svg": "/bilshe_za_menshe/static/media/icon_line.15fb2b5f.svg",
-    "static/media/link.d726d729.svg": "/bilshe_za_menshe/static/media/link.d726d729.svg",
+    "static/media/line-right.848b57d7.svg": "/bilshe_za_menshe/static/media/line-right.848b57d7.svg",
     "static/media/loc_dark.d078bfbc.svg": "/bilshe_za_menshe/static/media/loc_dark.d078bfbc.svg",
     "static/media/logo_dark_bottom.a420b37a.svg": "/bilshe_za_menshe/static/media/logo_dark_bottom.a420b37a.svg",
     "static/media/logo_dark_c.a6e74f11.svg": "/bilshe_za_menshe/static/media/logo_dark_c.a6e74f11.svg",
     "static/media/logo_dark_center.8486469e.svg": "/bilshe_za_menshe/static/media/logo_dark_center.8486469e.svg",
     "static/media/logo_dark_top.837c1807.svg": "/bilshe_za_menshe/static/media/logo_dark_top.837c1807.svg",
     "static/media/logo_elem_dark.c16222db.svg": "/bilshe_za_menshe/static/media/logo_elem_dark.c16222db.svg",
+    "static/media/logo_with_text.b933ba24.svg": "/bilshe_za_menshe/static/media/logo_with_text.b933ba24.svg",
     "static/media/old_1.84f8f137.svg": "/bilshe_za_menshe/static/media/old_1.84f8f137.svg",
     "static/media/old_2.2d8b674b.svg": "/bilshe_za_menshe/static/media/old_2.2d8b674b.svg",
     "static/media/old_3.8d0c23ed.svg": "/bilshe_za_menshe/static/media/old_3.8d0c23ed.svg",
-    "static/media/old_4.8f47a37d.svg": "/bilshe_za_menshe/static/media/old_4.8f47a37d.svg"
+    "static/media/old_4.8f47a37d.svg": "/bilshe_za_menshe/static/media/old_4.8f47a37d.svg",
+    "static/media/screen-1.f95b3c04.png": "/bilshe_za_menshe/static/media/screen-1.f95b3c04.png",
+    "static/media/screen-2.2a826e2e.png": "/bilshe_za_menshe/static/media/screen-2.2a826e2e.png",
+    "static/media/skip.fc0ad961.svg": "/bilshe_za_menshe/static/media/skip.fc0ad961.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.3cf83e0d.js",
-    "static/js/2.01f44d71.chunk.js",
-    "static/css/main.5d569863.chunk.css",
-    "static/js/main.75563505.chunk.js"
+    "static/js/2.8515d2b7.chunk.js",
+    "static/css/main.ae03bda4.chunk.css",
+    "static/js/main.997ceb8a.chunk.js"
   ]
 }
